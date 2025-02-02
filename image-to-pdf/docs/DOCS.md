@@ -28,9 +28,9 @@ The Image to PDF Converter allows users to upload multiple images (JPG/PNG), adj
 ## API Endpoints
 
 **Convert Images to PDF**
-    - Endpoint: POST /upload
-    - Request: Multipart form data (images)
-    - Response: JSON with pdfUrl
+- Endpoint: POST /upload
+- Request: Multipart form data (images)
+- Response: JSON with pdfUrl
 
 **Example Response:**
 ```bash
