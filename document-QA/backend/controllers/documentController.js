@@ -43,7 +43,7 @@ exports.askQuestion = async (req, res) => {
     const { question } = req.body;
     if (!documentText) return res.status(400).json({ message: 'No document uploaded yet' });
    
-    const promt= `Read this Content carefully content:${documentText}, Now answer the following question : ${question} according to Content give the most relevent word or line otherwise say  The content you provided does not contain any information about that question.`;
+    const promt= `Read this Content carefully content:${documentText}, Now answer the following question based on the above passage : ${question}`;
     const options = {
       method: 'POST',
       url: 'https://open-ai21.p.rapidapi.com/claude3',
