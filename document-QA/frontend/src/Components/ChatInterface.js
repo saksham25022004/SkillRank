@@ -106,7 +106,10 @@ const ChatInterface = () => {
 
       {/* Chat Interface */}
       <div className="chat-box" ref={chatBoxRef}>
-        {qaHistory.map((qa, index) => (
+        { (<div></div>)}
+        {qaHistory.length===0 ? 
+          <div style={{ color: "#333", textAlign: "center" }}>No History!</div> : 
+          qaHistory.map((qa, index) => (
           <div key={index} className="chat-message">
             <div className="user-message user-top-left">🧑‍💻 {qa.question}</div>
             <div className="ai-message ai-bottom-right">🤖 {qa.answer}</div>
@@ -129,8 +132,8 @@ const ChatInterface = () => {
             onChange={(e) => setTextUpload(e.target.value)}
             placeholder="Enter text to upload..."
           />
-          <button onClick={handleTextUpload}>Upload Text</button>
         </div>
+        <button className="text-upload-button" onClick={handleTextUpload}>Upload Text</button>
       </div>
 
       {/* Question Input */}
