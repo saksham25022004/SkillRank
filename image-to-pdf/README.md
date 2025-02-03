@@ -31,30 +31,29 @@ Ensure you have **Node.js** and **npm** installed on your system.
 2. Backend Setup
 
 - Navigate to the backend directory:
-```bash
-cd backend
-```
+    ```bash
+    cd backend
+    ```
 - Install dependencies:
-```bash
-npm install
-```
-```
+    ```bash
+    npm install
+    ```
 - Start the backend server:
-```bash
-npm start
-```
+    ```bash
+    npm start
+    ```
 3. Frontend Setup
 
 - Navigate to the frontend directory:
-```bash
-cd frontend
-```
+    ```bash
+    cd frontend
+    ```
 - Install dependencies:
-```bash
-npm install
-```
+    ```bash
+    npm install
+    ```
 - Start the frontend application:
-```bash
-npm start
-```
+    ```bash
+    npm start
+    ```
 4. Open the frontend in your browser (http://localhost:3000).
