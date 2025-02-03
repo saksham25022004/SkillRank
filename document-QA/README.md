@@ -22,8 +22,8 @@ Ensure you have the following installed:
 
 1. Clone the Repository
 ```bash
-git clone https://github.com/saksham25022004/document-qa.git
-cd document-qa
+git clone https://github.com/saksham25022004/SkillRank.git
+cd document-QA
 ```
 2. Backend Setup
 
@@ -38,7 +38,6 @@ npm install
 - Configure environment variables (.env file):
 ```bash
 MONGO_URI=your_mongodb_connection_string
-OPENAI_API_KEY=your_openai_api_key
 ```
 - Start the backend server:
 ```bash
